@@ -6,11 +6,11 @@ In software architecture, the term module is a big vague and this is by design: 
 
 At the highest level, a module is simply a subset of a project. It has two parts: 
 - **interface**: everything the other modules can use
-- **implementation**: the actual code&data, which other modules cannot access|reference directly
+- **implementation**: the actual code&data, which other modules cannot access/reference directly
 
 ## making modules disposable
 
-In our context, we need to architect projects so that any module can be taken out and replaced by a new|different one, in the same way one might upgrade a turbocharger on a car. The implication is clear: interface specification is key. 
+In our context, we need to architect projects so that any module can be taken out and replaced by a new/different one, in the same way one might upgrade a turbocharger on a car. The implication is clear: interface specification is key. 
 
 To generate the implementation, we need to assemble a prompt that provides the desired _interface_, the _interfaces_ of other modules we want to use, as well as instructions about any further _requirements_ we have about the implementation. The good thing is that all this is also what we would provide human developers for them to come up with the code by hand. 
 
@@ -23,7 +23,7 @@ If for each module, we store the _interfaces_ and the _requirements_, we can gen
 
 ## module size
 
-This way or working leads to an interesting tension regarding module size|granularity. 
+This way or working leads to an interesting tension regarding module size/granularity. 
 
 - with larger modules, there is less design work and more leeway&opportunities for the implementer (natural or artificial)
 - with smaller modules, a change in requirements will trigger minimal code generation, limiting the risk of regression
