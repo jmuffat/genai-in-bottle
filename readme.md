@@ -15,4 +15,4 @@ That's when I ended up realising genAI might actually be used in a readable, ver
 This project aims to formalise this modular approach, to design ways to compartmentalise robustly while limiting friction and, ideally, to provide tooling that implements the vision.
 
 ---
-read the ["genAI in the bottle"](./doc/) documentation.
+read the ["genAI in the bottle"](./doc/index.md) documentation.
