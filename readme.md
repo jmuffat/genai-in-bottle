@@ -13,3 +13,6 @@ I spent a lot of time comparing genAI code to disposable tableware, thinking the
 That's when I ended up realising genAI might actually be used in a readable, verifiable and maintainable manner. This can be accomplished easily by having us, developpers, work at a higher level. It feels like it should be possible for us to define modules and their relationship, and use genAI to build those smaller modules. This brings granularity, we can regenerate a module when it doesn't give satisfaction, we can lock a module down once it does. We can insert modules at interfaces to debug|QA|benchmark. We can have important modules coded the old fashion way. We can build a methodology that proves we're converging towards a goal.
 
 This project aims to formalise this modular approach, to design ways to compartmentalise robustly while limiting friction and, ideally, to provide tooling that implements the vision.
+
+---
+read the ["genAI in the bottle"](./doc/) documentation.
